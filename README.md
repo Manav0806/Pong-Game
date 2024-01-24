@@ -23,4 +23,4 @@ This project implements a classic PONG game in Python, where two players control
 
 1. You can customize the game window size and background color by modifying the script.
 2. Consider adding features like power-ups, sound effects, or difficulty levels to enhance the gameplay.
-3. Check out the paddle.py, ball.py, and scoreboard.py files for the implementation details of these classes.
+3. Check out the "paddle.py", "ball.py", and "scoreboard.py" files for the implementation details of these classes.
