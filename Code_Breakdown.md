@@ -1,23 +1,22 @@
 # Importing Modules:
-
-1. from turtle import Turtle, Screen: Imports the Turtle graphics library for creating graphics and animations.
-2. from paddle import paddle: Imports a custom-defined paddle class for creating and managing paddle objects.
-3. from ball import Ball: Imports a custom-defined Ball class for creating and managing the ball object.
+    from turtle import Turtle, Screen: Imports the Turtle graphics library for creating graphics and animations.
+    from paddle import paddle: Imports a custom-defined paddle class for creating and managing paddle objects.
+    from ball import Ball: Imports a custom-defined Ball class for creating and managing the ball object.
 4. from scoreboard import Scoreboard: Imports a custom-defined Scoreboard class for managing and displaying the score.
 5. import time: Imports the time module for pausing the game's execution.
 
 # Setting Up the Screen:
 
-screen = Screen(): Creates a new Turtle screen object.
-screen.setup(width=800, height=600): Sets the screen dimensions to 800x600 pixels.
-screen.bgcolor("black"): Sets the background color to black.
-screen.title("PONG Game"): Sets the title of the game window.
-screen.tracer(0): Disables automatic screen updates for smoother animation.
+1. screen = Screen(): Creates a new Turtle screen object.
+2. screen.setup(width=800, height=600): Sets the screen dimensions to 800x600 pixels.
+3. screen.bgcolor("black"): Sets the background color to black.
+4. screen.title("PONG Game"): Sets the title of the game window.
+5. screen.tracer(0): Disables automatic screen updates for smoother animation.
 
 # Creating Game Elements:
 
-scoreboard = Scoreboard(): Creates a new scoreboard object.
-r_paddle = paddle((350, 0)): Creates a right paddle at the position (350, 0).
+1. scoreboard = Scoreboard(): Creates a new scoreboard object.
+2. r_paddle = paddle((350, 0)): Creates a right paddle at the position (350, 0).
 l_paddle = paddle((-350, 0)): Creates a left paddle at the position (-350, 0).
 ball = Ball(): Creates a ball object.
 
